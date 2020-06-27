@@ -41,7 +41,7 @@
         <input type="checkbox" class="form-check-input" id="Remember">
         <label class="form-check-label" for="Remember">Remember me</label>
       </div>
-      <button type="submit" onclick="myFunction()" class="btn btn-primary">Submit</button> <p style="color: red;"id="textDemo"></p>
+      <button type="submit" id="submit" onclick="myFunction()" class="btn btn-primary">Submit</button>
     </form>
     <br/>
     <h1>Select</h1>
@@ -71,7 +71,7 @@
     </script>
     <script>
       function myFunction() {
-        document.getElementById("textDemo").innerHTML = "You've clicked on this Submit button.";
+        document.getElementById("submit").style.backgroundColor = "green";
       }
     </script>
   </div>
